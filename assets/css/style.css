@@ -418,9 +418,10 @@ section.jumbotron {
         ),
 
         url("../../assets/img/hiro-img/pexels-cottonbro-studio-5871921.jpg");
-  background-size: 100vw;
+  /* background-size: 100vw; */
   /* background-position-y: 10rem; */
   min-height: 100vh;
+  background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -2343,8 +2344,8 @@ Responsive Section For Small Device
   }
 
   .home {
-    background-size: 100vw;
-    background-position-y: 2.5rem;
+    /* background-size: 100vw; */
+    /* background-position-y: 2.5rem; */
     min-height: auto;
   }
 
@@ -2463,7 +2464,7 @@ Responsive Section For Small Device
     font-size: 25px;
     font-weight: 300;
     line-height: 34px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     min-width: 100px;
     max-width: 580px;
     text-align: center;
